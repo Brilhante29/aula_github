@@ -3,12 +3,11 @@ import pandas as pd
 
 st.write("""
          ## My First App
-         # My First App
 
          Hello *World*
          """)
 
-uploaded_file = st.file_uploader("Choose a file")
+uploaded_file = st.file_uploader("")
 if uploaded_file is not None:
      # To read file as bytes:
      bytes_data = uploaded_file.getvalue()
